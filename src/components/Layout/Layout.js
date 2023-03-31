@@ -4,7 +4,7 @@ import Auux from "hoc/Auux"
 
 const layout = (props)=>(
     <Auux>
-<div>Toolbar,sideDrawer,Backdrop</div>
+    
 <main className="Content">
     {props.children}
 </main>
